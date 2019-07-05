@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>24/7 - главная</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,Cyrillic" rel="stylesheet" type="text/css">
+    <!-- Нормалайз -->
+    <link rel="stylesheet" href="normalize.css">
+    <!-- Свои стили -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <div class="section">
+            <div class="nav">
+                <div class="logo">
+                    <a href=index.html><img src="img/logo.png" alt="logo" width="150" height="150">
+                    </a>
+                </div>
+                <div class="menu">
+                    <a class="button" href="index.html">Главная</a>
+                    <a class="button" href="service.html">Услуги</a>
+                    <a class="button" href="about.html">О нас</a>
+                </div>
+                <div class="auth">
+                    <p>Авторизация</p>
+                    <a href="">Вход</a>
+                    <a href="">Регистрация</a>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="section">
+        <h1 class="phone-msg">Такси 24/7:</h1>
+        <ul class="case-border">
+            <li>Закажите такси по телефону: <a class="phone-msg-hover">+7(3022)111-222</a></li>
+            <li><a href="#ordering">Закажите такси на сайте</a></li>
+        </ul>
+    </div>
+
+    <hr>
+    <div id="ordering" class="section ordering">
+        <form class="taxiform">
+            <div class="from-adress">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78520.8961049418!2d113.40518313292294!3d52.04735603819655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5dca351539f218ed%3A0x76432ffaf2ae72d8!2z0KfQuNGC0LAsINCX0LDQsdCw0LnQutCw0LvRjNGB0LrQuNC5INC60YDQsNC5!5e0!3m2!1sru!2sru!4v1562148692161!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="adresses">
+                <label for="start-point">Адрес отправления</label>
+                <input type="text" id="start-point" placeholder="Откуда" autofocus required>
+
+                <label for="end-point">Направление</label>
+                <input type="text" id="end-point" placeholder="Куда" autofocus required>
+                
+                <label for="phone">Ваш телефон</label>
+                <input type="text" id="phone" placeholder="+7(xxx)-xxx-xx-xx" autofocus required>
+
+                <button type="submit">Заказать</button>
+
+            </div>
+        </form>
+
+    </div>
+
+
+    <!-- раздел контента "о нас" -->
+    <div class="info">
+        <h3 class="about-text">Такси 24/7 - это:</h3>
+        <div class="section boxes">
+            <div>
+                <img src="img/loc-icon.png" width="128" height="128">
+                <p>Быстрый ответ на заявку клиента
+                </p>
+            </div>
+            <div>
+                <img src="img/onboarding.png" width="128" height="128">
+                <p>Заказ такси на сайте или по телефону</p>
+            </div>
+
+            <div>
+                <img src="img/client.png" width="128" height="128">
+                <p>Регистрация на сайте открывает еще больше возможностей для пассажиров!</p>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div id="video">
+            <video autoplay muted loop id="myVideo">
+                <source src="videos/mainvideo.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <div class="overlay">
+                <p>Такси 24/7 помогает водителям и пассажирам!
+                    <a href="index.html">Наша история</a></p>
+
+            </div>
+        </div>
+    </div>
+
+    <!--футер -->
+
+    <footer class="footer">
+        <div class="copyright">
+            <p>Taxi 24/7. inc, 2019.</p>
+        </div>
+        <div class="signup">
+            <form class="container">
+                <label for="exampleEmailInput">Подпишитесь на рассылку</label>
+                <input type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+                <input class="button-primary" type="submit" value="OK">
+            </form>
+        </div>
+    </footer>
+
+
+
+</body></html>
